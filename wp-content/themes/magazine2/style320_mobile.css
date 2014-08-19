@@ -1,0 +1,654 @@
+/******** MAGAZINE ********/
+@media only screen and (min-width:10px) and (max-width:479px) {
+/******** Premium Themes *****************/
+/******** For More Information go to www.template.my.id ********/
+/******** Theme Name: MAGAZINE TEMPLATE.MY.ID ********/
+/******** Star syle from here ********/
+
+/******** CONTENT ********/
+
+body { 
+width:320px; 
+}
+
+#tm_container {
+width:320px;
+}
+
+.tm_content {
+width:300px;
+}
+
+/******** MENU ********/
+.tm_menu_mobile {
+display:inline-block;
+width:100%;
+padding:0px;
+background:#cccccc;
+margin:0 0 10px;
+}
+
+.tm_menu_mobile nav {
+padding:6px;
+}
+
+.tm_menu_desktop {
+display:none;
+}
+
+/******** HEADER ********/
+.tm_logo {
+padding:0px 0px 0px 10px;
+}
+
+.tm_header_file {
+width:320px;
+height:auto;
+}
+
+.tm_topads_468 {
+display:none;
+}
+
+.widget_tm_news_ticker_desc {
+display:none;
+}
+
+.tm_left {
+width:300px;
+margin:0px;
+}
+
+.tm_center {
+width:300px;
+}
+
+.tm_right {
+width:300px;
+margin:0px;
+}
+
+.tm_middle_post_0 {
+width:100%;
+}
+
+.tm_middle_post_1 {
+width:100%;
+}
+
+.tm_middle_post_1_right {
+width:100%;
+}
+
+.tm_middle_post_2 {
+width:100%;
+}
+
+.tm_middle_page_0 {
+width:100%;
+}
+
+.tm_middle_page_1 {
+width:100%;
+}
+
+.tm_middle_page_1_right {
+width:100%;
+}
+
+.tm_middle_page_2 {
+width:100%;
+}
+
+.tm_top_menu_social  { 
+display:none;
+}
+
+.tm_top_menu {
+padding:3px 10px 3px 10px;
+display:none;
+}
+
+.tm_header_logo_ads {
+padding:15px 0px 15px 0px;
+}
+
+/******** LEFT ********/
+.tm_home_index_2 .tm_left {
+margin:0px;
+}
+
+.tm_sidebarwidget_left li {
+width:260px;
+}
+
+.tm_center_widget ul li {
+width:300px;
+}
+
+/******** RIGHT ********/
+
+.tm_sidebar_right li {
+width:260px;
+}
+
+/******** WIDGET ********/
+
+/*widget title*/
+.widget_tm_category_blog_dark_thumbs .widgettitle,
+.widget_tm_headline_gray .widgettitle,
+.widget_tm_headline_green .widgettitle,
+.widget_tm_headline .widgettitle {
+font-size:21px;
+}
+
+/*ad 728*/
+.tm_topads_728 { 
+display:none;
+}
+
+/*slider*/
+.widget_tm_bigslider {
+display:none;
+}
+
+.tm_center .widget_tm_slider {
+width:300px;
+}
+
+.bx-wrapper .bx-caption span {
+font-size:14px;
+padding:3px 10px 3px 10px;
+line-height:19px;
+}
+
+/*two box*/
+.tm_bricknews_1_box {
+width:300px;
+}
+
+.widget_tm_two_box_thumbs .tmmyid_twobox_list .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tm_bricknews_1_images {
+width:300px;
+height:170px;
+}
+
+.tm_center_widget ul li.widget_tm_two_box_thumbs {
+margin:0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+.tmmyid_twobox_list .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box + .tm_bricknews_1_box {
+margin:0px 0px 20px 0px;
+}
+
+/*three box*/
+.tm_bricknews_2_box {
+width:300px;
+}
+
+.widget_tm_three_box_thumbs .tm_bricknews_2 .tm_bricknews_2_box {
+margin:0px;
+}
+
+.tm_bricknews_2_images {
+width:300px;
+height:170px;
+}
+
+/*ad 480*/
+.tm_ad485x60_widget {
+display:none;
+}
+
+/*blog light*/
+.blogin_title_img {
+width:190px;
+margin:0px 0px 0px 10px;
+}
+
+.blogindesc {
+display:none;
+}
+
+/*blog dark*/
+.tm_center_widget ul li.widget_tm_category_blog_dark_thumbs {
+padding:20px 10px 5px 10px;
+width:280px;
+}
+
+.blogin_images_dark {
+float:left;
+}
+
+.blogin_title_img_dark {
+margin:0px 0px 0px 10px;
+width:170px;
+}
+
+.blogindesc_dark {
+display:none;
+}
+
+/*ad 200*/
+.tm_widget_ad200px {
+margin:auto;
+}
+
+/*ad 300*/
+li.tm_ad300_widget {
+padding:0px;
+width:300px;
+}
+
+.tm_widget_ad300px {
+padding:0px;
+}
+
+/*recent post*/
+.tm_sidebar_right li .tm_recent_news_title {
+width:188px;
+}
+
+.tm_recent_news_title {
+width:188px;
+}
+
+/*video*/
+.tm_today_video iframe {
+width:260px;
+}
+
+/*search*/
+.tm_sidebar_right li #s {
+width:253px;
+}
+
+.footerwidget li.widget_search #s {
+width:293px;
+}
+
+.tm_sidebarwidget_left li #s {
+width:253px;
+}
+
+/*monster*/
+.tm_center_widget .widget_archive ul, 
+.tm_center_widget .widget_archive select, 
+.tm_center_widget #calendar_wrap, 
+.tm_center_widget .widget_categories ul, 
+.tm_center_widget .widget_categories select, 
+.tm_center_widget .widget_pages, 
+.tm_center_widget .widget_meta, 
+.tm_center_widget .widget_recent_comments, 
+.tm_center_widget .widget_recent_entries, 
+.tm_center_widget .widget_rss,
+.tm_center_widget .textwidget,
+.tm_center_widget .tagcloud {
+width:300px;
+}
+
+.widget_archive ul li, 
+.widget_categories ul li, 
+.tm_center_widget .widget_pages li, 
+.tm_center_widget .widget_meta li, 
+.tm_center_widget .widget_recent_comments li, 
+.tm_center_widget .widget_recent_entries li, 
+.tm_center_widget .widget_rss li {
+width:285px;
+}
+
+.tm_sidebar_right .widget_archive ul li, 
+.tm_sidebar_right .widget_categories ul li, 
+.tm_sidebar_right .widget_pages li, 
+.tm_sidebar_right .widget_meta li, 
+.tm_sidebar_right .widget_recent_comments li, 
+.tm_sidebar_right .widget_recent_entries li, 
+.tm_sidebar_right .widget_rss li {
+width:245px;
+}
+
+.tm_left .widget_archive ul li, 
+.tm_left .widget_categories ul li, 
+.tm_left .widget_pages li, 
+.tm_left .widget_meta li, 
+.tm_left .widget_recent_comments li, 
+.tm_left .widget_recent_entries li, 
+.tm_left .widget_rss li {
+width:245px;
+}
+
+.tm_center_widget .widget_nav_menu .menu li .sub-menu li {
+width:258px;
+}
+
+.tm_center_widget li #s {
+width:293px;
+}
+
+/******** FOOTER WIDE ********/
+.tm_footer_index_widget li {
+width:300px;
+}
+
+/*tagline*/
+.tmtagline_about_us {
+width:265px;
+}
+
+.tmtagline_about_us_title {
+font-size:22px;
+line-height:26px;
+padding:10px 0px 10px 0px;
+}
+
+/*four box*/
+.tm_fourbox_allitem {
+width:auto;
+margin:0px 0px 20px 0px;
+}
+
+.tm_fourbox .tm_fourbox_allitem + .tm_fourbox_allitem + .tm_fourbox_allitem + .tm_fourbox_allitem {
+width:auto;
+}
+
+.tm_fourbox .tm_fourbox_allitem + .tm_fourbox_allitem + .tm_fourbox_allitem + .tm_fourbox_allitem + .tm_fourbox_allitem {
+display:none;
+}
+
+/******** FOOTER ********/
+.tm_footer {
+width:320px;
+margin:auto;
+}
+
+.footer_brick_box {
+width:300px;
+}
+
+.footerwidget {
+width:300px;
+}
+
+.footer_brick_1 {
+padding:20px 0px 0px 0px;
+}
+
+.footer_brick_2 {
+padding:20px 0px 0px 0px;
+}
+
+.footer_brick_3 {
+padding:20px 0px 0px 0px;
+}
+
+.footer_brick .tm_recent_news_title {
+width:228px;
+}
+
+/*footer menu*/
+.footerin_1 {
+padding:0px 0px 10px 0px;
+}
+
+/******** POST ********/
+
+/*breadcrumbs*/
+.breadcrumbs {
+padding:4px 10px 5px 10px;
+}
+
+/*post text content*/
+.tm_middle_post_content {
+padding:0px 15px 0px 15px;
+}
+
+/*heading post*/
+.tm_middle_post_content h1 {
+font-size:18px;
+line-height:24px;
+margin:15px 0px 3px -1px;
+}
+
+.tm_middle_post_content .type-post h1 {
+font-size:24px;
+line-height:28px;
+}
+
+.type-post h1 {
+font-size:24px;
+line-height:28px;
+}
+
+.type-post h2 {
+font-size:22px;
+line-height:26px;
+}
+
+.type-post h3 {
+font-size:21px;
+line-height:24px;
+}
+
+.type-post h4 {
+font-size:20px;
+line-height:22px;
+}
+
+.type-post h5 {
+font-size:18px;
+line-height:20px;
+}
+
+.tm_item_post_list_2, .tm_item_post_list_4, .tm_item_post_list_5 {
+display:none;
+}
+
+/*share button*/
+.share_post_pad {
+padding:10px;
+}
+
+.share_post_linkedin {
+margin:8px 16px 0px 0px;
+}
+
+.share_post_twitter {
+margin:8px 16px 0px 0px;
+}
+
+/*comment*/
+#comment {
+width:260px;
+}
+
+.usr td {
+line-height:21px;
+}
+
+/******** PAGE ********/
+
+.tm_middle_page_content {
+padding:0px 15px 0px 15px;
+}
+
+/*hading page*/
+.tm_middle_page_content h1 {
+font-size:18px;
+line-height:24px;
+margin:10px 0px 3px 0px;
+}
+
+.tm_middle_page_content .type-page h1 {
+font-size:24px;
+line-height:28px;
+}
+
+.type-page h1 {
+font-size:24px;
+line-height:28px;
+}
+
+.type-page h2 {
+font-size:22px;
+line-height:26px;
+}
+
+.type-page h3 {
+font-size:21px;
+line-height:24px;
+}
+
+.type-page h4 {
+font-size:20px;
+line-height:22px;
+}
+
+.type-page h5 {
+font-size:18px;
+line-height:20px;
+}
+
+.tm_item_page_list_4, .tm_item_page_list_5 {
+display:none;
+}
+
+.share_page_pad {
+padding:10px 0px;
+}
+
+.share_page_linkedin {
+margin:0px 16px 0px 0px;
+}
+
+.share_page_twitter {
+margin:8px 16px 0px 0px;
+}
+
+/******** Author ********/
+.author_post_name h4 {
+font-size:19px;
+line-height:23px;
+}
+
+#reply-title {
+font-size:19px;
+}
+
+#respond {
+margin:10px 0px 0px 0px;
+}
+
+/******** CATEGORY ********/
+.tm_category_0 {
+width:100%;
+}
+
+.tm_category_1 {
+width:100%;
+}
+
+.tm_category_1_right {
+width:100%;
+}
+
+.tm_category_2 {
+width:100%;
+}
+
+.tm_category_box {
+padding:0px 15px 20px 15px;
+}
+
+.tm_catpost_titles h1 {
+font-size:18px;
+line-height:24px;
+}
+
+.tm_catpost_item_3, .tm_catpost_item_4, .tm_catpost_item_5 {
+display:none;
+}
+
+#Nav {
+padding:0px 0px 20px 15px;
+}
+
+/******** SEARCH RESULTS ********/
+.tmpost-readmore-search {
+border:0px;
+}
+
+.tm_error_search {
+width:270px;
+}
+
+.tm_error_search_posts {
+font-size:21px;
+padding:0px 0px 5px 0px;
+}
+
+/******** 404 ********/
+.tm_error {
+width:270px;
+}
+
+.tm_error_posts {
+font-size:23px;
+}
+
+.tm_error_posts_desc {
+padding:0px 0px 10px 10px;
+}
+
+/******** FORUM ********/
+.tm_forumid {
+width:100%;
+}
+
+.tm_middle_page_content #bbpress-forums #bbp-single-user-details {
+width:100%;
+margin:0px 0px 20px 0px;
+border-bottom:3px solid #DDDDDD;
+padding:0px 0px 10px 0px;
+}
+
+div.bbp-template-notice, div.indicator-hint {
+width:83%;
+}
+
+.bbp-reply-content, .bbp-topic-content, .bbp-forum-content {
+color:#000000;
+font-size:14px;
+line-height:24px;
+}
+
+.bbp-reply-content p, .bbp-topic-content p {
+margin:0px 0px 20px 0px;
+}
+
+/** floating **/
+.floatinglike { display:none; }
+
+/*** END TYLE ***/
