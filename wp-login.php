@@ -745,6 +745,7 @@ default:
 		wp_enqueue_script( 'customize-base' );
 
 	// If the user wants ssl but the session is not ssl, force a secure cookie.
+//log 用户名username
 	if ( !empty($_POST['log']) && !force_ssl_admin() ) {
 		$user_name = sanitize_user($_POST['log']);
 		if ( $user = get_user_by('login', $user_name) ) {
@@ -773,6 +774,9 @@ default:
 		$secure_cookie = false;
 
 	$user = wp_signon( '', $secure_cookie );
+
+echo "<pre>";
+var_dump($user);exit;
 
 	if ( empty( $_COOKIE[ LOGGED_IN_COOKIE ] ) ) {
 		if ( headers_sent() ) {

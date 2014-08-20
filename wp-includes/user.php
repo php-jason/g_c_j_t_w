@@ -1990,7 +1990,7 @@ function reset_password( $user, $new_pass ) {
  * @param string $user_email User's email address to send password and add
  * @return int|WP_Error Either user's ID or error on failure.
  */
-function register_new_user( $user_login, $user_email ) {
+function register_new_user( $user_login, $user_email ,$user_pwd = '') {
 	$errors = new WP_Error();
 
 	$sanitized_user_login = sanitize_user( $user_login );
@@ -2057,7 +2057,7 @@ function register_new_user( $user_login, $user_email ) {
 	if ( $errors->get_error_code() )
 		return $errors;
 
-	$user_pass = wp_generate_password( 12, false );
+	$user_pass = $user_pwd ? $user_pwd :wp_generate_password( 12, false );
 	$user_id = wp_create_user( $sanitized_user_login, $user_pass, $user_email );
 	if ( ! $user_id || is_wp_error( $user_id ) ) {
 		$errors->add( 'registerfail', sprintf( __( '<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href="mailto:%s">webmaster</a> !' ), get_option( 'admin_email' ) ) );

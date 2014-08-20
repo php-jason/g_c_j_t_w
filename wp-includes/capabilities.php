@@ -449,6 +449,11 @@ class WP_User {
 	 */
 	var $roles = array();
 
+  /**
+   * 用户用户组
+   */
+  var $groups = array();
+
 	/**
 	 * All capabilities the user has, including individual and role based.
 	 *
@@ -767,6 +772,14 @@ class WP_User {
 
 		return $this->allcaps;
 	}
+
+  /**
+   * 获取用户组
+   *
+   */
+  function get_groups(){
+    
+  } 
 
 	/**
 	 * Add role to user.
